@@ -1,6 +1,6 @@
 {
-  "name": "animalookup",
-  "short_name": "animalookup",
+  "name": "AnimaLookup",
+  "short_name": "AnimaLookup",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#111111",

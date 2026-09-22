@@ -28,7 +28,7 @@ function el<K extends keyof HTMLElementTagNameMap>(
 
 app.innerHTML = `
   <div class="top">
-    <div class="brand">animalookup</div>
+    <div class="brand">AnimaLookup</div>
     <select class="lang" id="lang"></select>
   </div>
   <div class="stage" id="stage">

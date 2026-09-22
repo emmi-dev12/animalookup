@@ -13,7 +13,7 @@ async function tg(method, body) {
 export default async function handler(req, res) {
   if (req.method === "GET") {
     res.status(200).json({
-      name: "animalookup",
+      name: "AnimaLookup",
       app: APP,
       bot: TOKEN ? "configured" : "missing TELEGRAM_BOT_TOKEN",
     });
@@ -40,7 +40,7 @@ export default async function handler(req, res) {
   const chat = msg.chat.id;
   const open = {
     reply_markup: {
-      inline_keyboard: [[{ text: "Open animalookup", url: APP }]],
+      inline_keyboard: [[{ text: "Open AnimaLookup", url: APP }]],
     },
   };
   if (msg.photo || msg.document) {
@@ -52,7 +52,7 @@ export default async function handler(req, res) {
   } else {
     await tg("sendMessage", {
       chat_id: chat,
-      text: "animalookup — photo of an animal → species guess.\nNo ChatGPT. Common animals, can be wrong.",
+      text: "AnimaLookup — photo of an animal → species guess.\nNo ChatGPT. Common animals, can be wrong.",
       ...open,
     });
   }

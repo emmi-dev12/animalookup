@@ -1,4 +1,4 @@
-# animalookup
+# AnimaLookup
 
 Foto eines Tiers → Art-Vermutung. Öffentliche PWA. **Kein ChatGPT.**
 

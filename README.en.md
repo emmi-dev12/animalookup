@@ -1,4 +1,4 @@
-# animalookup
+# AnimaLookup
 
 Photo of an animal → species guess. Public PWA. **No ChatGPT.**
 

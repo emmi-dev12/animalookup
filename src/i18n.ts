@@ -24,7 +24,7 @@ export const I18N: Record<
   }
 > = {
   de: {
-    title: "animalookup",
+    title: "AnimaLookup",
     shoot: "FOTO",
     album: "ALBUM",
     looking: "Schauen…",
@@ -42,7 +42,7 @@ export const I18N: Record<
     v1: "Häufige Tiere (v1), nicht alle Arten der Welt.",
   },
   en: {
-    title: "animalookup",
+    title: "AnimaLookup",
     shoot: "PHOTO",
     album: "ALBUM",
     looking: "Looking…",
@@ -60,7 +60,7 @@ export const I18N: Record<
     v1: "Common animals (v1), not every species on Earth.",
   },
   fr: {
-    title: "animalookup",
+    title: "AnimaLookup",
     shoot: "PHOTO",
     album: "ALBUM",
     looking: "Recherche…",
@@ -78,7 +78,7 @@ export const I18N: Record<
     v1: "Animaux courants (v1), pas toutes les espèces.",
   },
   it: {
-    title: "animalookup",
+    title: "AnimaLookup",
     shoot: "FOTO",
     album: "ALBUM",
     looking: "Cerco…",
