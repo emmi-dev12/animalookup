@@ -38,6 +38,8 @@ export default async function handler(req, res) {
     return;
   }
   const chat = msg.chat.id;
+  await tg("sendChatAction", { chat_id: chat, action: "typing" });
+  await new Promise((r) => setTimeout(r, 700));
   const open = {
     reply_markup: {
       inline_keyboard: [[{ text: "Open AnimaLookup", url: APP }]],
