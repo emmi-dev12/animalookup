@@ -40,7 +40,7 @@ export default async function handler(req, res) {
   const chat = msg.chat.id;
   const open = {
     reply_markup: {
-      inline_keyboard: [[{ text: "Open animalookup", web_app: { url: APP } }]],
+      inline_keyboard: [[{ text: "Open animalookup", url: APP }]],
     },
   };
   if (msg.photo || msg.document) {
