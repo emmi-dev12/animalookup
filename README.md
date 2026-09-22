@@ -2,7 +2,7 @@
 
 Foto eines Tiers → Art-Vermutung. Öffentliche PWA. **Kein ChatGPT.**
 
-Live: nach dem Deploy.
+Live: **https://animalookup.vercel.app**
 
 ## Was es tut
 

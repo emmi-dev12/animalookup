@@ -10,7 +10,7 @@ async function tg(method, body) {
   return r.json();
 }
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   if (req.method === "GET") {
     res.status(200).json({
       name: "animalookup",
@@ -57,4 +57,4 @@ module.exports = async (req, res) => {
     });
   }
   res.status(200).end();
-};
+}
